@@ -1,0 +1,50 @@
+/* kanban.css */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  select {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .kanban-board {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px;
+  }
+  
+  .kanban-column {
+    min-width: 250px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .kanban-column h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .ticket {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket h4 {
+    font-size: 16px;
+    margin: 0 0 5px;
+  }
+  
